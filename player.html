@@ -1,0 +1,434 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<title>player</title>
+	<style type="text/css">
+
+/*NAVBAR CSS */
+header{
+			background-color: #ff2626;
+			height: 65px;
+		}
+		.logo{
+			width: 160px;
+			height: 65px;
+			margin-top: 0px;
+			
+		}
+		.container{
+			width: 80%;
+			margin: 0 auto;
+		}
+		body{
+			margin: 0;
+			font-family: 'Raleway', sans-serif;
+			
+		}
+		nav{
+			float: right;
+		}
+		nav ul{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+
+		}
+		nav li{
+
+			display: inline-block;
+			margin-left: 70px;
+			padding-top: 22px; 
+			position: relative;
+		}
+		nav a{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #fff;
+
+		}
+		nav a:hover{
+			color: #fff;
+		}
+		nav a::before{
+			content: '';
+			display: block;
+			height: 3px;
+			background-color: #fff;
+			position: absolute;
+			top: 0;
+			width: 0%;
+			transition: all ease-in-out 250ms; 
+		}
+		nav a:hover::before{
+			width: 100%;
+		}
+/*NAVBAR END */
+		/*PLAYER PAGE HEADER */
+		div.box2{
+			width: 100%;
+			height: 420px;
+			text-align: left;
+			 align-content: center;
+			 line-height: 1.6;
+			 background-image: url("img/black.jpg");
+			z-index: 1;
+		}
+		img{
+			margin-top: 20px;
+		}
+		#imageplayer{
+			z-index: 2;
+			margin-left: 850px;
+		}
+		#textbox-up{
+			width: 35%;
+			height: 210px;
+			margin-top: -350px;
+			text-align: center;
+			vertical-align: middle;
+			line-height: 30px; 
+			color: white;	
+			z-index: 2;
+		}
+		#textbox-up li{
+			
+			list-style: none;
+			align-content: center;
+		}
+		#textbox-down{
+			width: 35%;
+			height: 210px;
+			z-index: 2;
+			text-align: center;
+			vertical-align: bottom;
+			line-height: 20px; 
+			color: white;	
+		}
+		#textbox-down ul{
+			margin-top: 50px;
+		}
+		#textbox-down li{
+			margin-top: 10px;
+			list-style: none;
+			align-content: center;
+		}
+		#small{
+			font-size: 18px;
+		}
+		#big{
+			margin-top: 30px;
+			font-size: 45px;
+			margin-bottom: 15px;
+		}
+		/*PLAYER PAGE HEADER END */
+
+
+
+
+
+		div.pbox{
+			height: 870px;
+			width: 100%;
+			
+			margin:auto;
+			padding: 10px;
+			background-color: #30106B;
+			color: white;
+		}
+		div.pbox1{
+			height: 34%;
+			width: 100%;
+		}
+		div.pstats{
+
+			margin-top: -7px;
+			height: 20%;
+			width: 100%;
+				
+			text-align: left;
+		}
+		div.pstats1{
+			height: 70%;
+			width: 98%;
+		
+			margin:auto;
+			padding: 10px;
+		}
+		div.pstats2{
+			background-color: rgba(255,255,255,0.1);
+			height: 90%;
+			margin-right: 5px;
+			padding: 10px;
+			
+			width: 14.3%;
+			float: left;
+			line-height: 0.8
+
+
+		}
+		#firstbox{
+
+			margin-left: 10px;
+		}
+
+		div.pbox2{
+			height: 25%;
+			width: 100%;
+				
+
+		}
+
+		#endfooter{
+			text-align: center;
+		}
+		footer {
+		  position: absolute;
+		  bottom: 0;
+		  top: 1350px;
+		  width: 100%;
+		  height: 250px;
+		  background-color: #ff2626;
+		  color: white;
+}
+	</style>
+</head>
+<body>
+<header>
+		<div class="container">
+			<img src="img/cwclogo.png" alt="logo" class="logo">
+			<nav>
+				<ul>
+					<li><a href="home.html">HOME</a></li>
+					<li><a href="standings.html">STANDINGS</a></li>
+					<li><a href="teams.html">TEAMS</a></li>
+					<li><a href="matches.html">MATCHES</a></li>
+					<li><a href="player.html">PLAYERS</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="box2">
+		<div id="imageplayer">
+			<img src="img/gulbadin.png">
+		</div>
+				<div id="textbox-up">
+					<ul>
+						
+						<li id="big">GULBADIN</li>
+						<li id="big">NAID</li>
+					</ul>
+				</div>
+				<div id="textbox-down">
+					<ul>
+						<li id="small" class="ranking">ROLE: BOWLER</li>
+						<li id="small">BANKING: RIGHT HAND</li>
+						
+					</ul>
+				</div>	
+	</div>
+	<div class="pbox">
+		<div class="pbox1">
+		<div class="pstats"><h1><span style="color: #FFF200">PLAYER</span> CWC STATISTICS</h1></div> <!--change span color-->
+			<div class="pstats1">
+				<div class="pstats2" id="firstbox">
+					<span style="margin-top: 20px; text-align: center;"><b><h3>TOTAL CWC 19</h3><h3>MATCHES</h3></b></span>
+					<span style="text-align: center;"><h1>3</h1></span>
+					<span style="text-align: center;"><h3>ALL-TIME CWC</h3></span>
+					<span style="text-align: center;"><h5>4</h4></span>
+				</div>
+				<div class="pstats2">
+					<span style="margin-top: 20px; text-align: center;"><b><h3>TOTAL CWC 19</h3><h3>RUNS</h3></b></span>
+					<span style="text-align: center;"><h1>14</h1></span>
+					<span style="text-align: center;"><h3>ALL-TIME CWC</h3></span>
+					<span style="text-align: center;"><h5>28</h4></span>
+				</div>
+				<div class="pstats2">
+					<span style="margin-top: 20px; text-align: center;"><b><h3>TOTAL CWC 19</h3><h3>WICKETS</h3></b></span>
+					<span style="text-align: center;"><h1>4</h1></span>
+					<span style="text-align: center;"><h3>ALL-TIME CWC</h3></span>
+					<span style="text-align: center;"><h5>6</h4></span>
+				</div>
+				<div class="pstats2">
+					<span style="margin-top: 20px; text-align: center;"><b><h3>CWC 19 HIGHEST</h3><h3>SCORE</h3></b></span>
+					<span style="text-align: center;"><h1>14</h1></span>
+					<span style="text-align: center;"><h3>ALL-TIME CWC</h3></span>
+					<span style="text-align: center;"><h5>14</h4></span>
+				</div>
+				<div class="pstats2">
+					<span style="margin-top: 20px; text-align: center;"><b><h3>CWC 19</h3><h3>STRIKE RATE</h3></b></span>
+					<span style="text-align: center;"><h1>116.66</h1></span>
+					<span style="text-align: center;"><h3>ALL-TIME CWC</h3></span>
+					<span style="text-align: center;"><h5>116.67</h4></span>
+				</div>
+				<div class="pstats2">
+					<span style="margin-top: 20px; text-align: center;"><b><h3>CWC 19</h3><h3>AVERAGE</h3></b></span>
+					<span style="text-align: center;"><h1>7.00</h1></span>
+					<span style="text-align: center;"><h3>ALL-TIME CWC</h3></span>
+					<span style="text-align: center;"><h5>9.33</h4></span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="pbox2">
+			<caption align="left"><span style="color: #FBB034"><h4>Batting and Field Stats</h4></span></caption>
+			<table width="100%" height="160px">
+				<tr>
+				 	<th width="14%"></th>
+				 	<th width="7.69%">Matches</th>
+				 	<th width="7.69%">Not Out</th>
+				 	<th width="7.69%">Runs</th>
+				 	<th width="7.69%">High Score</th>
+				 	<th width="7.69%">Average</th>
+				 	<th width="7.69%">Balls Faced</th>
+				 	<th width="7.69%">Strike Rate</th>
+				 	<th width="7.69%">100s</th>
+				 	<th width="7.69%">50s</th>
+				 	<th width="7.69%">4s</th>
+				 	<th width="7.69%">6s</th>
+
+				</tr>
+				
+				<tr style="background-color: rgba(255,255,255,0.1);">
+				 	<th width="14%">CWC 2019</th>
+				 	<th width="7.69%">3</th>
+				 	<th width="7.69%">1</th>
+				 	<th width="7.69%">14</th>
+				 	<th width="7.69%">14</th>
+				 	<th width="7.69%">7.00</th>
+				 	<th width="7.69%">12</th>
+				 	<th width="7.69%">116.66</th>
+				 	<th width="7.69%">0</th>
+				 	<th width="7.69%">0</th>
+				 	<th width="7.69%">3</th>
+				 	<th width="7.69%">0</th>
+
+				</tr>
+				<tr style="background-color: rgba(255,255,255,0.1);">
+				 	<th width="14%">CWC ALL TIME</th>
+				 	<th width="7.69%">4</th>
+				 	<th width="7.69%">1</th>
+				 	<th width="7.69%">14</th>
+				 	<th width="7.69%">14</th>
+				 	<th width="7.69%">7.00</th>
+				 	<th width="7.69%">12</th>
+				 	<th width="7.69%">116.66</th>
+				 	<th width="7.69%">0</th>
+				 	<th width="7.69%">0</th>
+				 	<th width="7.69%">2</th>
+				 	<th width="7.69%">0</th>
+
+				</tr>
+
+				<tr style="background-color: rgba(255,255,255,0.1);">
+				 	<th width="14%">ODI ALL TIME</th>
+				 	<th width="7.69%">27</th>
+				 	<th width="7.69%">10</th>
+				 	<th width="7.69%">80</th>
+				 	<th width="7.69%">16*</th>
+				 	<th width="7.69%">11.42</th>
+				 	<th width="7.69%">107</th>
+				 	<th width="7.69%">74.76</th>
+				 	<th width="7.69%">0</th>
+				 	<th width="7.69%">0</th>
+				 	<th width="7.69%">9</th>
+				 	<th width="7.69%">3</th>
+
+				</tr>
+			</table>
+
+
+
+
+
+		</div>
+
+		<div class="pbox2">
+			<caption align="left"><span style="color: #FBB034"><h4>Bowling Stats</h4></span></caption>
+			<table width="100%" height="160px">
+				<tr>
+				 	<th width="14%"></th>
+				 	<th width="7.69%">Matches</th>
+				 	<th width="7.69%">Balls</th>
+				 	<th width="7.69%">RUns</th>
+				 	<th width="7.69%">Wickets</th>
+				 	<th width="7.69%">Best</th>
+				 	<th width="7.69%">Avergae</th>
+				 	<th width="7.69%">Economy</th>
+				 	<th width="7.69%">Strike Rate</th>
+				 	<th width="7.69%">SW</th>
+				 	<th width="7.69%">Maidens</th>
+				 	<th width="7.69%">No-Balls</th>
+
+				</tr>
+				
+				<tr style="background-color: rgba(255,255,255,0.1);">
+				 	<th width="14%">CWC 2019</th>
+				 	<th width="7.69%">3</th>
+				 	<th width="7.69%">121</th>
+				 	<th width="7.69%">115</th>
+				 	<th width="7.69%">4</th>
+				 	<th width="7.69%">3/45</th>
+				 	<th width="7.69%">28.75</th>
+				 	<th width="7.69%">5.70</th>
+				 	<th width="7.69%">30.25</th>
+				 	<th width="7.69%">0</th>
+				 	<th width="7.69%">2</th>
+				 	<th width="7.69%">0</th>
+
+				</tr>
+				
+				<tr style="background-color: rgba(255,255,255,0.1);">
+				 	<th width="14%">CWC ALL TIME</th>
+				 	<th width="7.69%">4</th>
+				 	<th width="7.69%">175</th>
+				 	<th width="7.69%">170</th>
+				 	<th width="7.69%">6</th>
+				 	<th width="7.69%">3/45</th>
+				 	<th width="7.69%">-</th>
+				 	<th width="7.69%">-</th>
+				 	<th width="7.69%">-</th>
+				 	<th width="7.69%">0</th>
+				 	<th width="7.69%">2</th>
+				 	<th width="7.69%">0</th>
+
+				</tr>
+
+
+				<tr style="background-color: rgba(255,255,255,0.1);">
+				 	<th width="14%">ODI ALL TIME</th>
+				 	<th width="7.69%">27</th>
+				 	<th width="7.69%">1,257</th>
+				 	<th width="7.69%">1,033</th>
+				 	<th width="7.69%">41</th>
+				 	<th width="7.69%">4/25</th>
+				 	<th width="7.69%">25.19</th>
+				 	<th width="7.69%">4.930</th>
+				 	<th width="7.69%">30.65</th>
+				 	<th width="7.69%">0</th>
+				 	<th width="7.69%">9</th>
+				 	<th width="7.69%">1</th>
+
+				</tr>
+
+			</table>
+
+
+
+
+			
+		</div>
+
+
+		
+	</div>
+
+	<footer>
+	<div id="endfooter" style="padding-top: 200px;">
+		Project by Shivani Patel, Drashti Patel, Nikunj Patel, Raj Damani and Mohil Patel
+	</div>
+</footer>
+</body>
+</html>

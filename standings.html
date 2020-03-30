@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<! 77b5fe>
+<html>
+<head>
+	<title>CWCSTANDINGS</title>
+	<style type="text/css">	
+
+		/*NAVBAR CSS */
+		header{
+			background-color: #ff2626;
+			height: 65px;
+		}
+		.logo{
+			width: 160px;
+			height: 65px;
+			margin-top: 0px;
+			
+		}
+		.container{
+			width: 80%;
+			margin: 0 auto;
+		}
+		body{
+			margin: 0;
+			font-family: 'Raleway', sans-serif;
+			
+		}
+		nav{
+			float: right;
+		}
+		nav ul{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+
+		}
+		nav li{
+
+			display: inline-block;
+			margin-left: 70px;
+			padding-top: 22px; 
+			position: relative;
+		}
+		nav a{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #fff;
+
+		}
+		nav a:hover{
+			color: #fff;
+		}
+		nav a::before{
+			content: '';
+			display: block;
+			height: 3px;
+			background-color: #fff;
+			position: absolute;
+			top: 0;
+			width: 0%;
+			transition: all ease-in-out 250ms; 
+		}
+		nav a:hover::before{
+			width: 100%;
+		}
+/*NAVBAR END */
+		h1{
+			margin-left: 15px;
+		}
+		table{
+			margin-left: 0px 20px;
+			width: 100%;
+		}
+		thead{
+			background-color: #d3d3d3;
+		}
+		td{
+			text-align: center;
+		}
+		
+		.country{
+			text-align: left;
+			
+		}
+		.cflag{
+			width: 25px;
+			height: 20px;
+		}
+		#row4{
+			border-bottom: 2px solid red;
+		}
+
+			#endfooter{
+			text-align: center;
+		}
+		footer {
+		  position: absolute;
+		  bottom: 0;
+		  top: 800px;
+		  width: 100%;
+		  height: 250px;
+		  background-color: #ff2626;
+		  color: white;
+}
+		
+	</style>
+</head>
+<body>
+<header>
+		<div class="container">
+			<img src="img/cwclogo.png" alt="logo" class="logo">
+			<nav>
+				<ul>
+					<li><a href="home.html">HOME</a></li>
+					<li><a href="standings.html">STANDINGS</a></li>
+					<li><a href="teams.html">TEAMS</a></li>
+					<li><a href="matches.html">MATCHES</a></li>
+					<li><a href="player.html">PLAYERS</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+<br>
+<h1>CWC STANDINGS</h1>
+<br>
+<table cellpadding="15" cellspacing="0">
+	<thead>
+	<tr>
+		<td>Pos</td>
+		<td>Team</td>
+		<td>Played</td>
+		<td>Won</td>
+		<td>Lost</td>
+		<td>N/R</td>
+		<td>Tied</td>
+		<td>Net RR</td>
+		<td>Points</td>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+		<td class="rline">1</td>
+		<td class="country"><img src="img/india.png" class="cflag"> INDIA</td>
+		<td>9</td>
+		<td>7</td>
+		<td>1</td>
+		<td>1</td>
+		<td>0</td>
+		<td>+0.809</td>
+		<td>15</td>
+	</tr>
+	<tr>
+		<td class="rline">2</td>
+		<td class="country"><img src="img/australia.png" class="cflag"> AUSTRALIA</td>
+		<td>9</td>
+		<td>7</td>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>+0.868</td>
+		<td>14</td>
+	</tr>
+	<tr>
+		<td class="rline">3</td>
+		<td class="country"><img src="img/england.png" class="cflag"> ENGLAND</td>
+		<td>9</td>
+		<td>6</td>
+		<td>3</td>
+		<td>0</td>
+		<td>0</td>
+		<td>+1.152</td>
+		<td>12</td>
+	</tr>
+	<tr>
+		<td class="rline" id="row4">4</td>
+		<td class="country" id="row4"><img src="img/newzealand.png" class="cflag"> NEW ZEALAND</td>
+		<td id="row4">9</td>
+		<td id="row4">5</td>
+		<td id="row4">3</td>
+		<td id="row4">1</td>
+		<td id="row4">0</td>
+		<td id="row4">+0.175</td>
+		<td id="row4">11</td>
+	</tr>
+	<tr>
+		<td class="rline">5</td>
+		<td class="country"><img src="img/pakistan.jpg" class="cflag"> PAKISTAN</td>
+		<td>9</td>
+		<td>5</td>
+		<td>3</td>
+		<td>1</td>
+		<td>0</td>
+		<td>-0.430</td>
+		<td>11</td>
+	</tr>
+	<tr>
+		<td class="rline">6</td>
+		<td class="country"><img src="img/srilanka.jpg" class="cflag"> SRI LANKA</td>
+		<td>9</td>
+		<td>3</td>
+		<td>4</td>
+		<td>2</td>
+		<td>0</td>
+		<td>-0.919</td>
+		<td>8</td>
+	</tr>
+	<tr>
+		<td class="rline">7</td>
+		<td class="country"><img src="img/southafrica.png" class="cflag"> SOUTH AFRICA</td>
+		<td>9</td>
+		<td>3</td>
+		<td>5</td>
+		<td>1</td>
+		<td>0</td>
+		<td>-0.050</td>
+		<td>7</td>
+	</tr>
+	<tr>
+		<td class="rline">8</td>
+		<td class="country"><img src="img/bangladesh.png" class="cflag"> BANGLADESH</td>
+		<td>9</td>
+		<td>3</td>
+		<td>5</td>
+		<td>1</td>
+		<td>0</td>
+		<td>-0.410</td>
+		<td>7</td>
+	</tr>
+	<tr>
+		<td class="rline">9</td>
+		<td class="country"><img src="img/westindies.jpg" class="cflag"> WEST INDIES</td>
+		<td>9</td>
+		<td>2</td>
+		<td>6</td>
+		<td>1</td>
+		<td>6</td>
+		<td>-0.225</td>
+		<td>5</td>
+	</tr>
+	<tr>
+		<td class="rline">10</td>
+		<td class="country"><img src="img/afghanistan.jpg" class="cflag"> AFGHANISTAN</td>
+		<td>9</td>
+		<td>0</td>
+		<td>9</td>
+		<td>0</td>
+		<td>0</td>
+		<td>-1.322</td>
+		<td>0</td>
+	</tr>
+	</tbody>
+	
+</table>
+
+<footer>
+	<div id="endfooter" style="padding-top: 200px;">
+		Project by Shivani Patel, Drashti Patel, Nikunj Patel, Raj Damani and Mohil Patel
+	</div>
+</footer>
+</body>
+</html>

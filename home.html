@@ -1,0 +1,258 @@
+<html>
+<head>
+<title>Home</title>
+
+<style>
+/*NAVBAR CSS */
+header{
+			background-color: #ff2626;
+			height: 65px;
+		}
+		.logo{
+			width: 160px;
+			height: 65px;
+			margin-top: 0px;
+			
+		}
+		.container{
+			width: 80%;
+			margin: 0 auto;
+		}
+		body{
+			margin: 0;
+			font-family: 'Raleway', sans-serif;
+			
+		}
+		nav{
+			float: right;
+		}
+		nav ul{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+
+		}
+		nav li{
+
+			display: inline-block;
+			margin-left: 70px;
+			padding-top: 22px; 
+			position: relative;
+		}
+		nav a{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #fff;
+
+		}
+		nav a:hover{
+			color: #fff;
+		}
+		nav a::before{
+			content: '';
+			display: block;
+			height: 3px;
+			background-color: #fff;
+			position: absolute;
+			top: 0;
+			width: 0%;
+			transition: all ease-in-out 250ms; 
+		}
+		nav a:hover::before{
+			width: 100%;
+		}
+/*NAVBAR END */
+
+
+/*slideshow */
+.mySlides {display:none;}
+.slideshow-container{
+	width: 100%;
+	height:200px;
+}
+
+/*slideshow end */
+.title1{
+			text-align:center;
+			font-weight: bold;
+			color:purple;
+			margin-top:290px;
+			}
+ .abc1{
+			background-image:url(img/img1.png);
+			background-repeat:none;
+		
+			background-size:cover;
+			width:30%;
+			height:320px;
+			color:white;
+			margin-left:40px;
+			margin-top:20px;
+			float:left;
+			font-size:100%;
+			margin-bottom:20px;
+
+ }
+ .abc2{
+			background-image:url(img/img2.png);
+			background-repeat:none;
+			margin-bottom:20px;
+			background-size:cover;
+			width:30%;
+			color:white;
+			height:320px;
+			margin-left:40px;
+			margin-top:20px;
+			float:left;
+ }
+ .abc3{
+			background-image:url(img/img3.png);
+			background-repeat:none;
+			margin-bottom:20px;
+			background-size:cover;
+			width:30%;
+			height:320px;
+			color:white;
+			margin-left:40px;
+			margin-top:20px;
+			float:left;
+ }
+ 
+ .name1{ float:left;
+ margin-left: 10px;}
+ 
+	.scores{
+			margin-left: 10px;
+			margin-right:20px;
+			margin-top: 60px;
+		
+			font-size:150%;
+			}
+			.name3{
+			float:right;
+			}
+			.aaa{
+				margin-left: 10px;
+				color: orange;
+				float:left;
+			}
+			.bbb{
+				margin-top:20px;
+			}
+			.naa{
+			clear:left;
+			margin-left: 10px;
+			}
+			.name{
+			
+			margin-left:55px;}
+			.title2{
+			clear:left;
+			}
+			.ddd{
+			padding:5px;
+			color:white;
+			margin:20px;
+			text-align:center;
+			}
+ .title2:hover, .title1:hover {
+						  transform: scale(1.2, 1.2);
+						  box-shadow: 0 10px 8px 0 rgba(0, 0, 255, 0.2),
+						  			  10px 0 8px 0 rgba(0, 0, 255, 0.2),
+						  			  0 -10px 8px 0 rgba(0, 0, 255, 0.2),
+						  			  -10px 0 8px 0 rgba(0, 0, 255, 0.2);
+				}
+	.xxx{
+	margin-top:60px;}
+		#endfooter{
+			text-align: center;
+		}
+		footer {
+		  position: absolute;
+		  bottom: 0;
+		  top: 1000px;
+		  width: 100%;
+		  height: 250px;
+		  background-color: #ff2626;
+		  color: white;
+}
+</style>
+<body>
+
+	<header>
+		<div class="container">
+			<img src="img/cwclogo.png" alt="logo" class="logo">
+			<nav>
+				<ul>
+					<li><a href="home.html">HOME</a></li>
+					<li><a href="standings.html">STANDINGS</a></li>
+					<li><a href="teams.html">TEAMS</a></li>
+					<li><a href="matches.html">MATCHES</a></li>
+					<li><a href="player.html">PLAYERS</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+<div class="slideshow-container">
+  <img class="mySlides" src="img/image1.png" style="width:100%">
+  <img class="mySlides" src="img/image2.png" style="width:100%">
+  <img class="mySlides" src="img/image3.png" style="width:100%">
+</div>
+
+
+
+<div><h1 class="title1">TOURNAMENT STATS</h1></div>
+<div class="abc1">
+<div class="aaa"><h1>Highest Score</h1></div>
+<div class="bbb"><img class="name3" src="img/david.png" height="230px" width="230px" align="center"></div>
+<h1 class="naa">David Warner</h1>
+<img class="name1" src="img/australia.png" height="25px" width="40px" align="center">
+<h2 class="name" >Australia</h2>
+<div class="scores"><h1>166</h1></div>
+
+</div>
+<div class="abc2">
+<div class="aaa"><h1>Most Runs</h1></div>
+<div class="bbb"><img class="name3 xxx" src="img/rohit.png" height="230px" width="230px" align="center"></div>
+<h1 class="naa">Rohit Sharma</h1>
+<img class="name1" src="img/india.png" height="25px" width="40px" align="center">
+<h2 class="name" >India</h2>
+
+
+<div class="scores"><h1>648</h1></div>
+</div>
+<div class="abc3">
+<div class="aaa"><h1>Most wickets</h1></div>
+<div class="bbb"><img class="name3" src="img/mitchell.png" height="230px" width="230px" align="center"></div>
+<h1 class="naa">Mitchell Starc</h1>
+<img class="name1" src="img/australia.png" height="25px" width="40px" align="center">
+<h2 class="name" >Australia</h2>
+<div class="scores"><h1>27</h1></div>
+</div>
+
+<footer>
+	<div id="endfooter" style="padding-top: 200px;">
+		Project by Shivani Patel, Drashti Patel, Nikunj Patel, Raj Damani and Mohil Patel
+	</div>
+</footer>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

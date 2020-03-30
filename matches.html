@@ -1,0 +1,437 @@
+<html>
+<head>
+<title> World Cup Schedule and Matches</title>
+<style>
+
+/*NAVBAR CSS */
+		header{
+			background-color: #ff2626;
+			height: 65px;
+		}
+		.logo{
+			width: 160px;
+			height: 65px;
+			margin-top: 0px;
+			
+		}
+		.container{
+			width: 80%;
+			margin: 0 auto;
+		}
+		body{
+			margin: 0;
+			font-family: 'Raleway', sans-serif;
+			
+		}
+		nav{
+			float: right;
+		}
+		nav ul{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+
+		}
+		nav li{
+
+			display: inline-block;
+			margin-left: 70px;
+			padding-top: 22px; 
+			position: relative;
+		}
+		nav a{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #fff;
+
+		}
+		nav a:hover{
+			color: #fff;
+		}
+		nav a::before{
+			content: '';
+			display: block;
+			height: 3px;
+			background-color: #fff;
+			position: absolute;
+			top: 0;
+			width: 0%;
+			transition: all ease-in-out 250ms; 
+		}
+		nav a:hover::before{
+			width: 100%;
+		}
+/*NAVBAR END */
+
+		.matchtitle{
+					
+					color:white;
+					background-color:blue;
+					text-align:center;
+					padding:3px;
+					}
+		.month{
+					clear:left;
+					background-color:#b7ffbf;
+					align:center;
+				}
+		h2{
+					align:center;
+					color:black;
+					text-weight:bold;
+					}
+		.winner{
+					
+					
+					background-color:#d4af37;
+					
+					
+					}
+		.semi{
+					
+					
+					background-color:#dedefe;
+					
+					}
+		
+		.time{
+					width:33%;
+					float:left;
+					height:200px;
+					
+					}
+		.a1{		
+					font-size:20px;
+					}
+		.c1{
+					
+					font-size:19px;
+					}
+		
+		
+		.country{
+					width:33%;
+					color:black;
+					float:left;
+					height:200px;
+					padding-top:20px;
+					}
+		.over{
+					width:33%;
+					float:left;
+					height:200px;
+					}
+		.abc::first-line{
+					font-weight:bold;
+					font-size:20px;
+					}
+		.xyz{
+					clear:left;
+					}
+		.matchtitle:hover {
+						  transform: scale(1.2, 1.2);
+						  box-shadow: 0 10px 8px 0 rgba(0, 0, 255, 0.2),
+						  			  10px 0 8px 0 rgba(0, 0, 255, 0.2),
+						  			  0 -10px 8px 0 rgba(0, 0, 255, 0.2),
+						  			  -10px 0 8px 0 rgba(0, 0, 255, 0.2);
+				}
+
+				#endfooter{
+			text-align: center;
+		}
+		footer {
+		  position: absolute;
+		  bottom: 0;
+		  top: 12000px;
+		  width: 100%;
+		  height: 250px;
+		  background-color: #ff2626;
+		  color: white;
+}
+		
+</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<img src="img/cwclogo.png" alt="logo" class="logo">
+			<nav>
+				<ul>
+					<li><a href="home.html">HOME</a></li>
+					<li><a href="standings.html">STANDINGS</a></li>
+					<li><a href="teams.html">TEAMS</a></li>
+					<li><a href="matches.html">MATCHES</a></li>
+					<li><a href="player.html">PLAYERS</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+<h1 align="center">Matches<h1>
+<h3 align="center"> Starts from May 30<sup>th</sup> 2019</h3>
+<br>
+<div class="xyz">
+	<div class="matchtitle winner"> Match tied (England win the super over) Final</div>
+	<div class="time"> <p class="a1">Sun 14 July<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Lord's, London 10:30 AM UK</div>
+	<div class="country"><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZELAND <br> <br><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND</div>
+	<div class="over"><p class="abc">241/8<br>Ov:50/50<br><p class="abc">241<br>Ov:50/50</div>
+</div>
+<div class="xyz">
+	<div class="matchtitle semi"> England win by 8 wickets Semi-Final</div>
+	<div class="time"> <p class="a1">Thur 11 July<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Edgbaston, Birmingham 10:30 AM UK</div>
+	<div class="country"><image src="img/australia.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AUSTRALIA <br> <br><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND</div>
+	<div class="over"><p class="abc">223<br>Ov:49/50<br><p class="abc">226/2<br>Ov:32.1/50</div>
+</div>
+<div class="xyz">
+	<div class="matchtitle semi"> New Zealand win by 18 runs Semi-Final</div>
+	<div class="time"> <p class="a1">Wed 10 July<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Old Trafford, Manchester 10:30 AM UK</div>
+	<div class="country"><image src="img/india.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;INDIA <br> <br><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZEALAND</div>
+	<div class="over"><p class="abc">221<br>Ov:49.3/50<br><p class="abc">239/8<br>Ov:50/50</div>
+</div>
+<div class="xyz">
+	<div class="matchtitle"> South Africa win by 10 runs</div>
+	<div class="time"> <p class="a1">Sat 06 July<br><p class="c1" style="font-weight:bold;">18:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Old Trafford, Manchester 01:30 AM UK</div>
+	<div class="country"><image src="img/australia.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AUSTRALIA <br> <br><image src="img/southafrica.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SOUTH AFRICA</div>
+	<div class="over"><p class="abc">315<br>Ov:49.5/50<br><p class="abc">325/6<br>Ov:50/50</div>
+</div>
+<div class="xyz">
+	<div class="matchtitle"> India win by 7 wickets</div>
+	<div class="time"> <p class="a1">Sat 06 July<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Headingley, Leeds 10:30 AM UK</div>
+	<div class="country"><image src="img/srilanka.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SRI LANKA <br> <br><image src="img/india.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;INDIA</div>
+	<div class="over"><p class="abc">264/7<br>Ov:50/50<br><p class="abc">265/3<br>Ov:43.3/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Pakistan win by 94 runs</div>
+	<div class="time"> <p class="a1">Fri 05 July<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Lord's, London 10:30 AM UK</div>
+	<div class="country"><image src="img/pakistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;PAKISTAN <br> <br><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;BANGLADESH</div>
+	<div class="over"><p class="abc">315/9<br>Ov:50/50<br><p class="abc">221<br>Ov:44.1/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> West Indies win by 23 runs</div>
+	<div class="time"> <p class="a1">Thu 04 July<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Headingley, Leeds 10:30 AM UK</div>
+	<div class="country"><image src="img/afghanistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AFGHANISTAN <br> <br><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;WEST INDIES</div>
+	<div class="over"><p class="abc">288<br>Ov:50/50<br><p class="abc">311/6<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> England win by 119 runs</div>
+	<div class="time"> <p class="a1">Wed 03 July<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">The Riverside Durham, Chester-le-street 10:30 AM UK</div>
+	<div class="country"><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND<br> <br><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZEALAND</div>
+	<div class="over"><p class="abc">305/8<br>Ov:50/50<br><p class="abc">186<br>Ov:45/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> India win by 28 runs</div>
+	<div class="time"> <p class="a1">Tue 02 July<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Edgbaston, Birmingham 10:30 AM UK</div>
+	<div class="country"><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;BANGLADESH <br> <br><image src="img/india.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;INDIA</div>
+	<div class="over"><p class="abc">286<br>Ov:48/50<br><p class="abc">314/9<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Sri Lanka win by 23 runs</div>
+	<div class="time"> <p class="a1">Mon 01 July<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">The Riverside Durham, Chester-le-street 10:30 AM UK</div>
+	<div class="country"><image src="img/srilanka.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SRI LANKA <br> <br><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;WEST INDIES</div>
+	<div class="over"><p class="abc">338/6<br>Ov:50/50<br><p class="abc">315/9<br>Ov:50/50</div>
+</div>
+
+<DIV class="month"><h2>JUNE 2019</h2></DIV>
+
+
+<div class="xyz">
+	<div class="matchtitle"> England win by 31 runs</div>
+	<div class="time"> <p class="a1">Sun 30 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Edgbaston, Birmingham 10:30 AM UK</div>
+	<div class="country"><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND <br> <br><image src="img/india.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;INDIA</div>
+	<div class="over"><p class="abc">337/7<br>Ov:50/50<br><p class="abc">306/5<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Australia win by 86 runs</div>
+	<div class="time"> <p class="a1">Sat 29 June<br><p class="c1" style="font-weight:bold;">18:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Lord's, London 01:30 AM UK</div>
+	<div class="country"><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZELAND <br> <br><image src="img/australia.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AUSTRALIA</div>
+	<div class="over"><p class="abc">157<br>Ov:43.4/50<br><p class="abc">243/9<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Pakisthan win by 3 wickets</div>
+	<div class="time"> <p class="a1">Sat 29 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Headingley, Leeds 10:30 AM UK</div>
+	<div class="country"><image src="img/pakistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;PAKISTAN<br> <br><image src="img/afghanistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AFGHANISTAN</div>
+	<div class="over"><p class="abc">230/7<br>Ov:49.4/50<br><p class="abc">227/9<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> South Africa win by 9 wickets</div>
+	<div class="time"> <p class="a1">Fri 28 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">The Riverside Durham, Chester-le-street 10:30 AM UK</div>
+	<div class="country"><image src="img/srilanka.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SRI LANKA<br> <br><image src="img/southafrica.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SOUTH AFRICA</div>
+	<div class="over"><p class="abc">203<br>Ov:49.3/50<br><p class="abc">206/1<br>Ov:37.2/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> India win by 125 runs</div>
+	<div class="time"> <p class="a1">Thu 27 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Old Trafford, Manchester 10:30 AM UK</div>
+	<div class="country"><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;WEST INDIES <br> <br><image src="img/india.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;INDIA</div>
+	<div class="over"><p class="abc">143<br>Ov:34.2/50<br><p class="abc">268/7<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Pakistan win by 6 wickets</div>
+	<div class="time"> <p class="a1">Wed 26 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Edgbaston, Birmingham 10:30 AM UK</div>
+	<div class="country"><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZELAND <br> <br><image src="img/pakistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;PAKISTAN</div>
+	<div class="over"><p class="abc">237/6<br>Ov:50/50<br><p class="abc">241/4<br>Ov:49.1/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Australia win by 64 runs</div>
+	<div class="time"> <p class="a1">Tue 25 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Lord's, London 10:30 AM UK</div>
+	<div class="country"><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND<br> <br><image src="img/australia.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AUSTRALIA</div>
+	<div class="over"><p class="abc">221<br>Ov:44.4/50<br><p class="abc">285/7<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Bangladesh win by 62 runs</div>
+	<div class="time"> <p class="a1">Mon 24 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Hampshire Bowl, Southampton 10:30 AM UK</div>
+	<div class="country"><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;BANGLADESH <br> <br><image src="img/afghanistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AFGHANISTAN</div>
+	<div class="over"><p class="abc">262/7<br>Ov:50/50<br><p class="abc">200<br>Ov:47/50</div>
+</div><div class="xyz">
+	<div class="matchtitle">Pakistan win by 49 runs</div>
+	<div class="time"> <p class="a1">Sun 23 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Lord's, London 10:30 AM UK</div>
+	<div class="country"><image src="img/pakistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;PAKISTAN <br> <br><image src="img/southafrica.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SOUTH AFRICA</div>
+	<div class="over"><p class="abc">308/7<br>Ov:50/50<br><p class="abc">259/9<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> New Zealand win by 5 runs</div>
+	<div class="time"> <p class="a1">Sat 22 June<br><p class="c1" style="font-weight:bold;">18:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Old Trafford, Manchester 01:30 AM UK</div>
+	<div class="country"><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;WEST INDIES <br> <br><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZEALAND</div>
+	<div class="over"><p class="abc">286<br>Ov:49/50<br><p class="abc">291/8<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> India win by 11 runs</div>
+	<div class="time"> <p class="a1">Sat 22 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Hampshire Bowl, Southampton 10:30 AM UK</div>
+	<div class="country"><image src="img/india.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;INDIA <br> <br><image src="img/afghanistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AFGHANISTAN</div>
+	<div class="over"><p class="abc">224/8<br>Ov:50/50<br><p class="abc">213<br>Ov:49.5/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Sri Lanka win by 20 runs</div>
+	<div class="time"> <p class="a1">Fri 21 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Headlingley, Leeds 10:30 AM UK</div>
+	<div class="country"><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND <br> <br><image src="img/srilanka.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SRI LANKA</div>
+	<div class="over"><p class="abc">212<br>Ov:47/50<br><p class="abc">232/9<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Australia win by 48 runs</div>
+	<div class="time"> <p class="a1">Thu 20 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Trent Bridge, Nottingham 10:30 AM UK</div>
+	<div class="country"><image src="img/australia.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AUSTRALIA <br> <br><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;BANGLADESH</div>
+	<div class="over"><p class="abc">381/5<br>Ov:50/50<br><p class="abc">333/8<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle">New Zealand win by 4 wickets</div>
+	<div class="time"> <p class="a1">Wed 19 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Edgbaston, Birmingham 10:30 AM UK</div>
+	<div class="country"><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZELAND <br> <br><image src="img/southafrica.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SOUTH AFRICA</div>
+	<div class="over"><p class="abc">245/6<br>Ov:48.3/49<br><p class="abc">241/6<br>Ov:49/49</div>
+</div><div class="xyz">
+	<div class="matchtitle"> England win by 150 runs</div>
+	<div class="time"> <p class="a1">Tue 18 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Old Trafford, Manchester 10:30 AM UK</div>
+	<div class="country"><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND <br> <br><image src="img/afghanistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AFGHANISTAN</div>
+	<div class="over"><p class="abc">397/6<br>Ov:50/50<br><p class="abc">251/8<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Bangladesh win by 7 wickets</div>
+	<div class="time"> <p class="a1">Mon 17 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">County Ground Taunton, Taunton 10:30 AM UK</div>
+	<div class="country"><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;WEST INDIES<br> <br><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;BANGLADESH</div>
+	<div class="over"><p class="abc">321/8<br>Ov:50/50<br><p class="abc">322<br>Ov:41.3/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> India win by 89 runs (DLS Meathod)</div>
+	<div class="time"> <p class="a1">Sun 16 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Old Trafford, Manchester 10:30 AM UK</div>
+	<div class="country"><image src="img/india.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;INDIA <br> <br><image src="img/pakistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;PAKISTAN</div>
+	<div class="over"><p class="abc">336/5<br>Ov:50/50<br><p class="abc">212/6<br>Ov:40/40</div>
+</div><div class="xyz">
+	<div class="matchtitle">South Africa win by 9 wickets</div>
+	<div class="time"> <p class="a1">Sat 15 June<br><p class="c1" style="font-weight:bold;">18:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Cardiff Wales Stadium, Cardiff 01:30 AM UK</div>
+	<div class="country"><image src="img/southafrica.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SOUTH AFRICA<br> <br><image src="img/afghanistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AFGHANISTAN</div>
+	<div class="over"><p class="abc">131/1<br>Ov:28.4/48<br><p class="abc">125<br>Ov:34.1/48</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Australia win by 87 runs</div>
+	<div class="time"> <p class="a1">Sat 15 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">The Oval, London 10:30 AM UK</div>
+	<div class="country"><image src="img/srilanka.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SRI LANKA <br> <br><image src="img/australia.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AUSTRALIA</div>
+	<div class="over"><p class="abc">247<br>Ov:45.5/50<br><p class="abc">334/7<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> England win by 8 wickets</div>
+	<div class="time"> <p class="a1">Fri 14 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Hampshire Bowl, Southampton 10:30 AM UK</div>
+	<div class="country"><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND <br> <br><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;WEST INDIES</div>
+	<div class="over"><p class="abc">213/2<br>Ov:33.1/50<br><p class="abc">212<br>Ov:44.4/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Match abandoned without a ball bowled</div>
+	<div class="time"> <p class="a1">Thu 13 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Trent Bridge, Nottingham 10:30 AM UK</div>
+	<div class="country"><image src="img/india.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;INDIA <br> <br><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZEALAND</div>
+	<div class="over"><p class="abc">0/0<br><br><p class="abc">0/0<br></div>
+</div>
+<div class="xyz">
+	<div class="matchtitle"> Australia win by 41 runs</div>
+	<div class="time"> <p class="a1">Wed 12 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">County Ground Taunton, Taunton 10:30 AM UK</div>
+	<div class="country"><image src="img/australia.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AUSTRALIA <br> <br><image src="img/pakistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;PAKISTAN</div>
+	<div class="over"><p class="abc">307<br>Ov:49/50<br><p class="abc">266<br>Ov:45.4/50</div>
+</div>
+<div class="xyz">
+	<div class="matchtitle"> Match abandoned without a ball bowled</div>
+	<div class="time"> <p class="a1">Tue 11 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Bristol County Ground, Bristol 10:30 AM UK</div>
+	<div class="country"><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;BANGLADESH <br> <br><image src="img/srilanka.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SRI LANKA</div>
+	<div class="over"><p class="abc">0/0<br><br><p class="abc">0/0<br></div>
+</div><div class="xyz">
+	<div class="matchtitle"> No result</div>
+	<div class="time"> <p class="a1">Mon 10 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Hampshire Bowl, Southampton 10:30 AM UK</div>
+	<div class="country"><image src="img/southafrica.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SOUTH AFRICA<br> <br><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;WEST INDIES</div>
+	<div class="over"><p class="abc">29/2<br>Ov:7.3/50<br><p class="abc"><br></div>
+</div><div class="xyz">
+	<div class="matchtitle"> India win by 36 runs</div>
+	<div class="time"> <p class="a1">Sun 09 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">The Oval, London 10:30 AM UK</div>
+	<div class="country"><image src="img/india.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;INDIA <br> <br><image src="img/australia.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AUSTRALIA</div>
+	<div class="over"><p class="abc">352/5<br>Ov:50/50<br><p class="abc">316<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> New Zealand win by 7 wickets</div>
+	<div class="time"> <p class="a1">Sat 08 June<br><p class="c1" style="font-weight:bold;">18:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">County Grond Taunton, Taunton 01:30 AM UK</div>
+	<div class="country"><image src="img/afghanistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AFGHANISTAN <br> <br><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZEALAND</div>
+	<div class="over"><p class="abc">172<br>Ov:41.1/50<br><p class="abc">173/3<br>Ov:32.1/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> England win by 106 runs</div>
+	<div class="time"> <p class="a1">Sat 08 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Cardiff Wales Stadium, Cardiff 10:30 AM UK</div>
+	<div class="country"><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND<br> <br><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;BANGLADESH</div>
+	<div class="over"><p class="abc">386/6<br>Ov:50/50<br><p class="abc">280<br>Ov: 48.5/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Match abandoned without a ball bowled</div>
+	<div class="time"> <p class="a1">Fri 07 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Bristol County Ground, Bristol 10:30 AM UK</div>
+	<div class="country"><image src="img/pakistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;PAKISTAN <br> <br><image src="img/srilanka.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SRI LANKA</div>
+	<div class="over"><p class="abc">0/0<br><br><p class="abc">0/0<br></div>
+</div><div class="xyz">
+	<div class="matchtitle"> Australia win by 15 runs</div>
+	<div class="time"> <p class="a1">Thu 06 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Trent Bridge, Nottingham 10:30 AM UK</div>
+	<div class="country"><image src="img/australia.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AUSTRALIA <br> <br><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;WEST INDIES</div>
+	<div class="over"><p class="abc">288<br>Ov:49/50<br><p class="abc">273/9<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> New Zealand win by 2 wickets</div>
+	<div class="time"> <p class="a1">Wed 05 June<br><p class="c1" style="font-weight:bold;">18:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">The Oval, London 01:30 AM UK</div>
+	<div class="country"><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;BANGLADESH <br> <br><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZEALAND</div>
+	<div class="over"><p class="abc">244<br>Ov:49.2/50<br><p class="abc">248/8<br>Ov:47.1/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> India win by 6 wickets</div>
+	<div class="time"> <p class="a1">Wed 05 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Hampshire Bowl, Southampton 10:30 AM UK</div>
+	<div class="country"><image src="img/southafrica.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SOUTH AFRICA<br> <br><image src="img/india.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;INDIA</div>
+	<div class="over"><p class="abc">227/9<br>Ov:50/50<br><p class="abc">230/4<br>Ov:47.3/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Sri Lanka win by 34 runs (DSL Meathod)</div>
+	<div class="time"> <p class="a1">Tue 04 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Cardiff Wales Stadium, Cardiff 10:30 AM UK</div>
+	<div class="country"><image src="img/afghanistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AFGHANISTAN <br> <br><image src="img/srilanka.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SRI LANKA </div>
+	<div class="over"><p class="abc">152<br>Ov:32.4/41<br><p class="abc">201<br>Ov:36.5/41</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Pakistan win by 14 runs</div>
+	<div class="time"> <p class="a1">Mon 03 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Trent Bridge, Nottingham 10:30 AM UK</div>
+	<div class="country"><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND<br> <br><image src="img/pakistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;PAKISTAN</div>
+	<div class="over"><p class="abc">334/9<br>Ov:50/50<br><p class="abc">348/8<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Bangladesh win by 21 runs</div>
+	<div class="time"> <p class="a1">Sun 02 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">The Oval, London 10:30 AM UK</div>
+	<div class="country"><image src="img/southafrica.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SOUTH AFRICA <br> <br><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;BANGLADESH</div>
+	<div class="over"><p class="abc">309/8<br>Ov:50/50<br><p class="abc">330/6<br>Ov:50/50</div>
+</div><div class="xyz">
+	<div class="matchtitle"> Australia win by 7 wickets</div>
+	<div class="time"> <p class="a1">Sat 01 June<br><p class="c1" style="font-weight:bold;">18:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Bristol County Ground, Bristol 01:30 AM UK</div>
+	<div class="country"><image src="img/afghanistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AFGHANISTAN <br> <br><image src="img/australia.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;AUSTRALIA</div>
+	<div class="over"><p class="abc">207<br>Ov:38.2/50<br><p class="abc">209/3<br>Ov:34.5/50</div>
+</div>
+<div class="xyz">
+	<div class="matchtitle"> New Zealand win by 10 wickets</div>
+	<div class="time"> <p class="a1">Sat 01 June<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Cardiff Wales Stadium, Cardiff 10:30 AM UK</div>
+	<div class="country"><image src="img/newzealand.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;NEW ZEALAND<br> <br><image src="img/srilanka.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SRI LANKA</div>
+	<div class="over"><p class="abc">137<br>Ov:16.1/50<br><p class="abc">136<br>Ov:29.2/50</div>
+</div>
+<div class="month"><h2>May 2019</h2></div>
+<div class="xyz">
+	<div class="matchtitle"> West Indies win by 7 wickets</div>
+	<div class="time"> <p class="a1">Fri 31 May<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">Trent Bridge, Nottingham 10:30 AM UK</div>
+	<div class="country"><image src="img/bangladesh.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;WEST INDIES<br> <br><image src="img/pakistan.jpg" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;PAKISTAN</div>
+	<div class="over"><p class="abc">108/3<br>Ov:13.4/50<br><p class="abc">105<br>Ov:21.4/50</div>
+</div>
+<div class="xyz">
+	<div class="matchtitle"> England win by 104 runs</div>
+	<div class="time"> <p class="a1">Thu 30 May<br><p class="c1" style="font-weight:bold;">15:00(IST)<sub style="font-size:12px;"> YOUR TIME</sub><br><p class="e1">The Oval, London 10:30 AM UK</div>
+	<div class="country"><image src="img/england.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;ENGLAND <br> <br><image src="img/southafrica.png" height="25px" width="40px" align="center"> &nbsp;&nbsp;&nbsp;SOUTH AFRICA</div>
+	<div class="over"><p class="abc">311/8<br>Ov:50/50<br><p class="abc">207<br>Ov:39.5/50</div>
+</div>
+
+
+<footer>
+	<div id="endfooter" style="padding-top: 200px;">
+		Project by Shivani Patel, Drashti Patel, Nikunj Patel, Raj Damani and Mohil Patel
+	</div>
+</footer>
+</body>
+</html>

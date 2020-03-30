@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teams</title>
+	<style type="text/css">
+
+/*NAVBAR CSS */
+header{
+			background-color: #ff2626;
+			height: 65px;
+		}
+		.logo{
+			width: 160px;
+			height: 65px;
+			margin-top: 0px;
+			
+		}
+		.container{
+			width: 80%;
+			margin: 0 auto;
+		}
+		body{
+			margin: 0;
+			font-family: 'Raleway', sans-serif;
+			
+		}
+		nav{
+			float: right;
+		}
+		nav ul{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+
+		}
+		nav li{
+
+			display: inline-block;
+			margin-left: 70px;
+			padding-top: 22px; 
+			position: relative;
+		}
+		nav a{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #fff;
+
+		}
+		nav a:hover{
+			color: #fff;
+		}
+		nav a::before{
+			content: '';
+			display: block;
+			height: 3px;
+			background-color: #fff;
+			position: absolute;
+			top: 0;
+			width: 0%;
+			transition: all ease-in-out 250ms; 
+		}
+		nav a:hover::before{
+			width: 100%;
+		}
+/*NAVBAR END */
+
+
+		@import "compass/css3";
+		body{
+			background-image: url(artboard/allbg.png);
+			background-color: ;	/*Why is it not starting from the top of image? */
+			background-repeat: repeat-y;
+			background-position: center;
+			background-size: contain;
+		}
+		div.head{
+			text-align: center;
+			font-size: 2em;
+			color: white;
+		}
+
+		div.teaminfo{
+			  background-color: rgba(48, 16, 107,0.8);
+
+			  color: white;
+			width: 75%;
+			margin: auto;
+			padding: 10px;
+			height: 90px;
+			transition: all 0.3s ease-in-out;
+				border-radius: 5px;
+			margin-top: 10px;
+		}
+
+			.teaminfo:hover {
+						  transform: scale(1.2, 1.2);
+						  box-shadow: 0 10px 8px 0 rgba(48, 16, 200,0.4),
+						  			  10px 0 8px 0 rgba(48, 16, 200,0.4),
+						  			  0 -10px 8px 0 rgba(48, 16, 200,0.4),
+						  			  -10px 0 8px 0 rgba(48, 16, 200,0.4);
+				}
+			.teaminfo:hover::after {
+  								opacity: 1;
+				}
+				ul{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+
+		}
+
+
+		div.countryname
+		{
+			
+			width: 25%;
+			margin-left: 10%;
+			margin-top: -12px;
+			padding: 10px;
+			height: 100%;
+			text-align: left;
+			align-content: center;
+			float: left;
+		}
+		div.icc{
+			margin-top: -12px;
+			
+			width: 20%;
+			padding: 10px;
+			height: 100%;
+			text-align: center;
+			align-content: center;
+			float: left;
+			line-height: 0.75;
+		}
+		div.highest{
+
+			margin-top: -12px;
+			
+			width: 20%;
+			padding: 10px;
+			height: 100%;
+			text-align: center;
+			align-content: center;
+			float: left;
+				line-height: 0.5;
+
+		}
+		img.arrow{
+			margin-right: 20px;
+			margin-top: 30px;
+		}
+
+		div.flag{
+			float: left;
+			margin-right: ;
+			margin-top: 25px;
+		}
+		div.cname{
+				font-size: 1.8em;
+				margin-top: 22px;
+				margin-left: 75px;
+
+		}
+	#endfooter{
+			text-align: center;
+		}
+		footer {
+		  position: absolute;
+		  bottom: 0;
+		  top: 1500px;
+		  width: 100%;
+		  height: 250px;
+		  background-color: #ff2626;
+		  color: white;
+		}
+
+	</style>
+
+</head>
+<body>
+<header>
+		<div class="container">
+			<img src="img/cwclogo.png" alt="logo" class="logo">
+			<nav>
+				<ul>
+					<li><a href="home.html">HOME</a></li>
+					<li><a href="standings.html">STANDINGS</a></li>
+					<li><a href="teams.html">TEAMS</a></li>
+					<li><a href="matches.html">MATCHES</a></li>
+					<li><a href="player.html">PLAYERS</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+		<div class="head">
+			<h1>Teams</h1>
+		</div>
+
+		<a href="teaminfo.html">
+		<div class="teaminfo">
+			<div class="countryname">
+				<div class="flag"><img src="img/afghanistan.jpg" height="30px" width="50px" ></div>
+				<div class="cname">AFGHANISTAN</div>
+			</div>
+			<div class="icc">
+				<div>
+						<div ><h4>ICC ODI RANKING</h4></div>
+						<div ><h2>10</h2></div>
+					</div>
+			</div>
+			<div class="highest">
+				<div><h4>HIGHEST CWC RANKING</h4></div>
+							<div><h2>Group Stage(1)</h2></div>
+							<div><b>15</b></div>
+			</div>
+			<img  class="arrow" src="img/arrow.png" height="30px" width="30px" align="right" >
+		</div>
+			</a>
+
+
+
+
+
+		<a href="autralia.html">
+		<div class="teaminfo">
+			<div class="countryname">
+				<div class="flag"><img src="img/australia.png" height="30px" width="50px" ></div>
+				<div class="cname">AUSTRALIA</div>
+			</div>
+			<div class="icc">
+				<div>
+						<div ><h4>ICC ODI RANKING</h4></div>
+						<div ><h2>4</h2></div>
+					</div>
+			</div>
+			<div class="highest">
+				<div><h4>HIGHEST CWC RANKING</h4></div>
+							<div><h2>Winner</h2></div>
+							<div><b>87,99,03,07,15</b></div>
+			</div>
+			<img  class="arrow" src="img/arrow.png" height="30px" width="30px" align="right" >
+		</div>
+			</a>
+
+
+
+
+
+
+
+
+		<div class="teaminfo">
+			<div class="countryname">
+				<div class="flag"><img src="img/bangladesh.png" height="30px" width="50px" ></div>
+				<div class="cname">BANGLADESH</div>
+			</div>
+			<div class="icc">
+				<div>
+						<div ><h4>ICC ODI RANKING</h4></div>
+						<div ><h2>7</h2></div>
+					</div>
+			</div>
+			<div class="highest">
+				<div><h4>HIGHEST CWC RANKING</h4></div>
+							<div><h2>Quarter Final(1)</h2></div>
+							<div><b>15</b></div>
+			</div>
+			<img  class="arrow" src="img/arrow.png" height="30px" width="30px" align="right" >
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div class="teaminfo">
+			<div class="countryname">
+				<div class="flag"><img src="img/england.png" height="30px" width="50px" ></div>
+				<div class="cname">ENGLAND</div>
+			</div>
+			<div class="icc">
+				<div>
+						<div ><h4>ICC ODI RANKING</h4></div>
+						<div ><h2>1</h2></div>
+					</div>
+			</div>
+			<div class="highest">
+				<div><h4>HIGHEST CWC RANKING</h4></div>
+							<div><h2>Winner</h2></div>
+							<div><b>19</b></div>
+			</div>
+			<img  class="arrow" src="img/arrow.png" height="30px" width="30px" align="right" >
+		</div>
+
+
+
+
+
+
+
+
+
+		<div class="teaminfo">
+			<div class="countryname">
+				<div class="flag"><img src="img/india.png" height="30px" width="50px" ></div>
+				<div class="cname">INDIA</div>
+			</div>
+			<div class="icc">
+				<div>
+						<div ><h4>ICC ODI RANKING</h4></div>
+						<div ><h2>2</h2></div>
+					</div>
+			</div>
+			<div class="highest">
+				<div><h4>HIGHEST CWC RANKING</h4></div>
+							<div><h2>Winner</h2></div>
+							<div><b>83,11</b></div>
+			</div>
+			<img  class="arrow" src="img/arrow.png" height="30px" width="30px" align="right" >
+		</div>
+
+
+
+
+
+
+			<div class="teaminfo">
+			<div class="countryname">
+				<div class="flag"><img src="img/newzealand.png" height="30px" width="50px" ></div>
+				<div class="cname">NEW ZEALAND</div>
+			</div>
+			<div class="icc">
+				<div>
+						<div ><h4>ICC ODI RANKING</h4></div>
+						<div ><h2>3</h2></div>
+					</div>
+			</div>
+			<div class="highest">
+				<div><h4>HIGHEST CWC RANKING</h4></div>
+							<div><h2>Runner Up(1)</h2></div>
+							<div><b>15</b></div>
+			</div>
+			<img  class="arrow" src="img/arrow.png" height="30px" width="30px" align="right" >
+		</div>
+
+
+
+
+		<div class="teaminfo">
+			<div class="countryname">
+				<div class="flag"><img src="img/southafrica.png" height="30px" width="50px" ></div>
+				<div class="cname">SOUTH AFRICA</div>
+			</div>
+			<div class="icc">
+				<div>
+						<div ><h4>ICC ODI RANKING</h4></div>
+						<div ><h2>5</h2></div>
+					</div>
+			</div>
+			<div class="highest">
+				<div><h4>HIGHEST CWC RANKING</h4></div>
+							<div><h2>Semi Final(1)</h2></div>
+							<div><b>92,99,07,15</b></div>
+			</div>
+			<img  class="arrow" src="img/arrow.png" height="30px" width="30px" align="right" >
+		</div>
+
+
+
+		<div class="teaminfo">
+			<div class="countryname">
+				<div class="flag"><img src="img/srilanka.jpg" height="30px" width="50px" ></div>
+				<div class="cname">SRI LANKA</div>
+			</div>
+			<div class="icc">
+				<div>
+						<div ><h4>ICC ODI RANKING</h4></div>
+						<div ><h2>8</h2></div>
+					</div>
+			</div>
+			<div class="highest">
+				<div><h4>HIGHEST CWC RANKING</h4></div>
+							<div><h2>Winner(1)</h2></div>
+							<div><b>96</b></div>
+			</div>
+			<img  class="arrow" src="img/arrow.png" height="30px" width="30px" align="right" >
+		</div>
+
+
+
+		<div class="teaminfo">
+			<div class="countryname">
+				<div class="flag"><img src="img/westindies.jpg" height="30px" width="50px" ></div>
+				<div class="cname">WEST INDIES</div>
+			</div>
+			<div class="icc">
+				<div>
+						<div ><h4>ICC ODI RANKING</h4></div>
+						<div ><h2>9</h2></div>
+					</div>
+			</div>
+			<div class="highest">
+				<div><h4>HIGHEST CWC RANKING</h4></div>
+							<div><h2>Winner</h2></div>
+							<div><b>75,79</b></div>
+			</div>
+			<img  class="arrow" src="img/arrow.png" height="30px" width="30px" align="right" >
+		</div>
+
+
+
+
+
+
+		<div class="teaminfo">
+			<div class="countryname">
+				<div class="flag"><img src="img/pakistan.jpg" height="30px" width="50px" ></div>
+				<div class="cname">PAKISTAN</div>
+			</div>
+			<div class="icc">
+				<div>
+						<div ><h4>ICC ODI RANKING</h4></div>
+						<div ><h2>6</h2></div>
+					</div>
+			</div>
+			<div class="highest">
+				<div><h4>HIGHEST CWC RANKING</h4></div>
+							<div><h2>WINNER</h2></div>
+							<div><b>92</b></div>
+			</div>
+			<img  class="arrow" src="img/arrow.png" height="30px" width="30px" align="right" >
+		</div>
+
+		<footer>
+	<div id="endfooter" style="padding-top: 200px;">
+		Project by Shivani Patel, Drashti Patel, Nikunj Patel, Raj Damani and Mohil Patel
+	</div>
+</footer>
+</body>
+</html>
